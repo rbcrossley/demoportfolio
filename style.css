@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.fa-bootstrap {
+  color: red;
+}
+
+
+.navPLUShero {
+  background-image: url("./assets/asset 23.jpeg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.homeTOcontact {
+  display: flex;
+  justify-content: center;
+}
+
+.collapse {
+  margin-left: 25%;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.banner-content {
+  margin-top: 10rem;
+}
+
+.banner-content span {
+  font-size: 1.5rem;
+}
+
+.hire-me-btn {
+  margin-top: 2rem;
+}
+
+/*services*/
+.services {
+  padding-top: 40px;
+  background-color: #ebf4f5;
+}
+
+.services-list {
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.services-list .fa-solid {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.services-list h1 {
+  font-size: 2rem;
+}
+
+.services-list li {
+  width: 20%;
+  padding: 20px 40px;
+  margin: 10px;
+  background-color: white;
+}
+
+.serviceslist {
+  position: relative;
+
+}
+
+.fa-laptop {
+  position: absolute;
+  top: 50%;
+  left: -80px;
+}
+
+/*footer section*/
+.container-footer {
+  background-color: black;
+  color: white;
+}
+
+.container-footer p {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+.copyright {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* about me */
+
+.about-me-image {
+  width: 320px;
+  height: 450px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.font-weight-bold {
+  font-weight: 900;
+}
+
+.about-me-text {
+  padding-left: 350px;
+}
+
+.download-cv-btn {
+  width: 200px;
+}
+
+.about-me-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* progress bar code  */
+
+
+.progressbar-container {
+  width: 750px;
+  background-color: #ddd;
+  margin-bottom: 25px;
+}
+
+.skills {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.web-design {
+  width: 90%;
+  background-color: #2196F3;
+}
+
+.css {
+  width: 95%;
+  background-color: #2196F3;
+}
+
+.php {
+
+  width: 55%;
+  background-color: #2196F3;
+}
+
+.javascript {
+
+  width: 90%;
+  background-color: #2196F3;
+}
+
+.react-js {
+
+  width: 85%;
+  background-color: #2196F3;
+}
+
+.angular-js {
+
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.bootstrap {
+
+  width: 95%;
+  background-color: #2196F3;
+}
+
+.graphic-design {
+
+  width: 60%;
+  background-color: #2196F3;
+}
+
+.ui-ux-design {
+
+  width: 85%;
+  background-color: #2196F3;
+}
+
+.main-container {
+  display: flex;
+}
+
+.second-container {
+  margin-left: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-danger {
+  color: red;
+}
+
+/* timelines section */
+
+/* .timeline-main-container {
+  border-left: 5px solid red;
+  margin-left: 50px;
+}
+
+.xyz::before {
+  content: "";
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-color: red;
+
+  left: -63px;
+
+}
+
+.xyz {
+  margin-left: 50px;
+  position: relative;
+}
+
+.fa-calendar-alt {
+  color: red;
+} */
+
+.first-timeline-container {
+  border-left: 5px solid red;
+  margin-left: 50px;
+
+}
+
+.second-timeline-container {
+  border-left: 5px solid red;
+  margin-right: 150px;
+
+}
+
+.timeline-main-container {
+  display: flex;
+  justify-content: space-between
+}
+
+.xyz::after {
+  content: "";
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-color: red;
+  top: 0;
+  left: -63px;
+
+}
+
+.xyz {
+  margin-left: 50px;
+  position: relative;
+}
+
+.fa-calendar-alt {
+  color: red;
+}
+
+.fa-graduation-cap {
+  color: red;
+  margin-left: 25px;
+
+}
+
+.fa-briefcase {
+  color: red;
+  margin-left: 25px;
+}
+
+time {
+  color: red;
+}
